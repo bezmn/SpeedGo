@@ -151,6 +151,18 @@
   line-height: 1.6;
 }
 
+.about_us-descriptions {
+  font-size: 1.8rem;
+  line-height: 1.9;
+}
+
+.about_us-image {
+  width: 70%;
+  margin-left: 10%;
+  border: 20px solid #fcf1eb;
+  border-style: double;
+}
+
 .step-image-box {
   display: flex;
   justify-content: center;
