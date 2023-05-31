@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/queries.css">
+  <title>Taxi</title>
+</head>
+<body>
+  <header class="header">
+    <a href="#">
+      <img src="img/taxi.png" alt="project logo" class="logo">
+    </a>
+    <nav class="main-nav">
+      <ul class="main-nav-list">
+        <li><a class="main-nav-link" href="#sponsor">Спонсори</a></li>
+        <li><a class="main-nav-link" href="#app">Додаток</a></li>
+        <li><a class="main-nav-link" href="#autopark">Автопарк</a></li>
+        <li><a class="main-nav-link" href="#work">Робота</a></li>
+        <li><a class="main-nav-link nav-cta" href="tel:0952279539">Замовляй зараз!</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+  <section class="section-hero">
+    <div class="hero-container">
+      <div class="hero-text-box">
+        <h1 class="heading-primary">
+          SpeedGo
+        </h1>
+        <p class="hero-description">
+          Швидкість, комфорт, надійність – з нами до кожної точки!
+        </p>
+        <a href="tel:0952279539" class="btn btn-full margin-right-sm">Замовити таксі</a>
+        <a href="#app" class="btn btn-outline">Дізнатись більше &darr;</a>
+        <div class="delivered-drives">
+          <div class="delivered-images">
+            <img src="img/customers/customer-1.jpg" alt="customer image">
+            <img src="img/customers/customer-2.jpg" alt="customer image">
+            <img src="img/customers/customer-3.jpg" alt="customer image">
+            <img src="img/customers/customer-4.jpg" alt="customer image">
+            <img src="img/customers/customer-5.jpg" alt="customer image">
+            <img src="img/customers/customer-6.jpg" alt="customer image">
+          </div>
+          <p class="delivered-drives-text">
+            <span>250,000+</span>
+            задоволених поїздок
+          </p>
+        </div>
+      </div>  
+      
+    </div>
+  </section>
+
+  <section class="section-featured" id="sponsor">
+    <div class="container">
+      <h2 class="heading-featured-in">Наші спонсори</h2>
+      <div class="logos">
+        <img src="img/logos/techcrunch.png" alt="techcrunch logo">
+        <img src="img/logos/business-insider.png" alt="business-insider logo">
+        <img src="img/logos/forbes.png" alt="forbes logo">
+        <img src="img/logos/the-new-york-times.png" alt=" the nyt logo">
+        <img src="img/logos/usa-today.png" alt="usa-today logo">
+      </div>
+    </div>
+  </section>
+
+  <section class="section-how">
+    <div class="container">
+      <span class="subheading">Як це працює?</span>
+      <h2 class="heading-secondary">Твоя комфортна поїздка всього у 3 кроки</h2>      
+    </div>
+
+    <!-- STEP 01 -->
+    <div class="container grid grid-center grid-2-cols" id="app">
+      <div class="step-text-box">
+        <p class="step-number">01</p>
+        <h3 class="heading-tertiary">
+          Додаток:
+        </h3>
+        <p class="step-descriptions">
+         Завантажуйте наш додаток. Створіть акаунт, вказавши власні дані
+         або увідійть у вже раніше створений акаунт.
+        </p>
+      </div>
+      <div class="step-image-box">
+        <img src="img/app/app-screen-2.png" alt="app-screen-1" class="step-image">
+      </div>      
+
+      <!-- STEP 02 -->
+      <div class="step-image-box">
+        <img src="img/app/app-screen-1.png" class="step-image">
+      </div>
+      <div class="step-text-box">
+        <p class="step-number">02</p>
+        <h3 class="heading-tertiary">
+          Місце посадки: 
+        </h3>
+        <p class="step-descriptions">
+          Використувоючи поле пошуку, вкажіть адресу вашого місцезнаходження
+          або ж оберіть місце на карті та підтвердіть замовлення.
+         </p>
+      </div>
+
+      <!-- STEP 03 -->
+      <div class="step-text-box">
+        <p class="step-number">03</p>
+        <h3 class="heading-tertiary">
+          Очікуйте на водія:
+        </h3>
+        <p class="step-descriptions">
+         Як тільки водій прийме ваше замовлення вам одразу надійде повідомлення.
+         У додатку ви зможете бачити дані про авто, водія та відслідковувати пересування
+         у реальному часі.
+        </p>
+      </div>
+      <div class="step-image-box">
+        <img src="img/app/app-screen-3.png" class="step-image">
+      </div>
+    </div>
+  </section>
+
+  <section class="section-vehicles" id="autopark">
+    <div class="container center-text">
+      <h2 class="heading-secondary">Понад 100 нових та різних авто</h2>      
+    </div>
+    <div class="container grid grid-3-cols margin-bottom-md">
+      <div class="vehicle">
+        <img src="img/car-1.jpg" class="vehicle-image">
+        <div class="vehicle-content">
+        <p class="vehicle-title">BMW F10 2015</p>
+        <ul class="vehicle-attributes">
+          <li class="vehicle-attribute">
+            <ion-icon class="vehicle-icon" name="speedometer-outline"></ion-icon>
+            <span><strong>950</strong> к.с.</span>
+          </li>
+          <li class="vehicle-attribute">
+            <ion-icon class="vehicle-icon" name="timer-outline"></ion-icon>
+            <span>час<strong>74</strong></span>
+          </li>
+          <li class="vehicle-attribute">
+            <ion-icon class="vehicle-icon" name="star-outline"></ion-icon>
+            <span><strong>4.9</strong> рейтинг (537)</span>
+          </li>
+        </ul>
+        </div>
+      </div>  
+      <div class="vehicle">
+        <img src="img/car-2.jpg" class="vehicle-image">
+        <div class="vehicle-content">
+        <p class="vehicle-title">Avocado Salad</p>
+        <ul class="vehicle-attributes">
+          <li class="vehicle-attribute">
+            <ion-icon class="vehicle-icon" name="speedometer-outline"></ion-icon>
+            <span><strong>700</strong> к.с.</span>
+          </li>
+          <li class="vehicle-attribute">
+            <ion-icon class="vehicle-icon" name="timer-outline"></ion-icon>
+            <span>час<strong>92</strong></span>
+          </li>
+          <li class="vehicle-attribute">
+            <ion-icon class="vehicle-icon" name="star-outline"></ion-icon>
+            <span><strong>4.8</strong> rating (441)</span>
+          </li>
+        </ul>
+        </div>
+      </div>
+      <div class="autopark">
+        <h3 class="heading-tertiary">Марки наших авто:</h3>
+        <ul class="list">
+          <li class="list-item">
+            <ion-icon class="list-icon" name="car-sport-outline"></ion-icon>
+            <span>Mercedes</span>
+          </li>
+          <li class="list-item">
+            <ion-icon class="list-icon" name="car-sport-outline"></ion-icon>
+            <span>Maserati</span>
+          </li>
+          <li class="list-item">
+            <ion-icon class="list-icon" name="car-sport-outline"></ion-icon>
+            <span>Rolls-Royce</span>
+          </li>
+          <li class="list-item">
+            <ion-icon class="list-icon" name="car-sport-outline"></ion-icon>
+            <span>Volkswagen</span>
+          </li>
+          <li class="list-item">
+            <ion-icon class="list-icon" name="car-sport-outline"></ion-icon>
+            <span>Aston Martin</span>
+          </li>
+          <li class="list-item">
+            <ion-icon class="list-icon" name="car-sport-outline"></ion-icon>
+            <span>BMW</span>
+          </li>
+          <li class="list-item">
+            <ion-icon class="list-icon" name="car-sport-outline"></ion-icon>
+            <span>Toyota</span>
+          </li>
+          <li class="list-item">
+            <ion-icon class="list-icon" name="car-sport-outline"></ion-icon>
+            <span>Mazda</span>
+          </li>
+          <li class="list-item">
+            <ion-icon class="list-icon" name="car-sport-outline"></ion-icon>
+            <span>Nissan</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="container all-cars">
+      <a href="#" class="link">Переглянути весь автопарк &rarr;</a>
+    </div>
+  </section>
+
+  
+
+
+  <section class="section-cta" id="work">
+    <div class="container">
+      <div class="cta">
+        <div class="cta-text-box">
+          <h2 class="heading-secondary">Приєднуйся до нас!</h2>
+          <p class="cta-text">
+            Ми пропонуємо гнучкий графік роботи, що дозволить вам забезпечити баланс між роботою та особистим життям. 
+            Будучи частиною нашої служби таксі, ви будете мати можливість зустрічати нових цікавих людей, відкривати нові 
+            місця та відчувати себе корисною ланкою в транспортній системі міста. Робіть перші кроки в напрямку успішної кар'єри в таксі вже сьогодні.
+          </p>
+          <form class="cta-form" action="#">
+            <div>
+              <label for="full-name">П.І.Б</label>
+              <input id="full-name" type="text" placeholder="П.І.Б" required>
+            </div>
+            
+            <div>
+              <label for="email">Електронна пошта</label>
+              <input id="email" type="email" placeholder="моя-пошта@example.com" required>
+            </div>
+            
+            <div>
+              <label for="select-where">Звідки ви дізналися про нас?</label>
+              <select id="select-where" required>
+                <option value="">Відповідь:</option>
+                <option value="youtube">Youtube</option>
+                <option value="facebook">Facebook</option>
+                <option value="instagram">Instagram</option>
+                <option value="other">Інше</option>
+              </select>
+            </div>
+            <button class="btn btn-form" onclick="join()">Приєднатися!</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container grid grid-footer">
+      <div class="logo-column">
+        <a href="#" class="footer-logo">
+          <img class="logo" src="img/taxi.png">
+        </a>
+
+        <ul class="social-links">
+          <li>
+            <a class="footer-link" href="#"><ion-icon class="social-icon" name="logo-instagram"></ion-icon></a>
+          </li>
+          <li>
+            <a class="footer-link" href="#"><ion-icon class="social-icon" name="logo-facebook"></ion-icon></a>
+          </li>
+          <li>
+            <a class="footer-link" href="#"><ion-icon class="social-icon" name="logo-twitter"></ion-icon></a>
+          </li>
+        </ul>
+
+        <p class="copyright">
+          Copyright &copy; 2023 by Taxi.
+          All rights reserved.
+        </p>
+      </div>
+      <div class="address-column">
+        <p class="footer-heading">Адреса офісу</p>
+        <address class="contacts">
+          <p>Рівне, північний</p>
+          <p> 
+            <a class="footer-link" href="tel:0952279539">777</a><br />  
+          </p>
+          <p>
+            <a class="footer-link" href="mailto:taxi@gmail.com">олєг@gmail.com</a>
+          </p> 
+        </address>
+      </div>
+      <nav class="nav-col">
+        <p class="footer-heading">Акаунт</p>
+        <ul class="footer-nav">
+          <li>
+            <a class="footer-link" href="#">Створити акаунт</a>
+          </li>
+          <li>
+            <a class="footer-link" href="#">Увійти</a>
+          </li>
+          <li>
+            <a class="footer-link" href="#">IOS додаток</a>
+          </li>
+          <li>
+            <a class="footer-link" href="#">Android додаток</a>
+          </li>
+        </ul>
+      </nav>
+      <nav class="nav-col">
+        <p class="footer-heading">Компанія</p>
+        <ul class="footer-nav">
+          <li>
+            <a class="footer-link" href="#">Про компаню</a>
+          </li>
+          <li>
+            <a class="footer-link" href="#">Для бізнесу</a>
+          </li>
+          <li>
+            <a class="footer-link" href="#">Для партнерів</a>
+          </li>
+          <li>
+            <a class="footer-link" href="#">Кар'єра</a>
+          </li>
+        </ul>
+      </nav>
+      <nav class="nav-col">
+        <p class="footer-heading">Додатково</p>
+        <ul class="footer-nav">
+          <li>
+            <a class="footer-link" href="#">Персонал</a>
+          </li>
+          <li>
+            <a class="footer-link" href="#">Служба підтримки</a>
+          </li>
+          <li>
+            <a class="footer-link" href="#">Конфіденційність та умови</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script src="main.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
