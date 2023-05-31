@@ -392,3 +392,59 @@ p:first-child {
 .footer-link:active {
   color: #555;
 }
+
+.section-personals {
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 55fr 45fr;
+  align-items: center;
+}
+
+.personals-container {
+  padding: 9.6rem;
+}
+
+.personals {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 4.8rem;
+  column-gap: 8rem;
+}
+
+.personal-image {
+  width: 64px;
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+}
+
+.personal-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 1.6rem;
+}
+
+.personal-name {
+  font-size: 1.6rem;
+  color: #6f6f6f;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+  padding: 1.6rem;
+}
+
+.gallery-item {
+  overflow: hidden;
+}
+
+.gallery-image {
+  display: block;
+  width: 100%;
+  transition: all 0.5s;
+}
+
+.gallery-image:hover {
+  transform: scale(1.1);
+}
